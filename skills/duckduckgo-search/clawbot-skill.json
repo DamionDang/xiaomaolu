@@ -1,0 +1,32 @@
+{
+  "name": "duckduckgo-search",
+  "displayName": "DuckDuckGo Search",
+  "description": "A skill that enables web search functionality using DuckDuckGo's Instant Answer API",
+  "version": "1.0.0",
+  "author": "Clawdbot User",
+  "category": "search",
+  "tags": ["search", "web", "duckduckgo", "information", "research"],
+  "commands": [
+    {
+      "name": "duckduckgo",
+      "description": "Perform a web search using DuckDuckGo",
+      "usage": "duckduckgo <search query>",
+      "handler": "./search.js"
+    },
+    {
+      "name": "ddg",
+      "description": "Quick DuckDuckGo search",
+      "usage": "ddg <search query>",
+      "handler": "./search.js"
+    }
+  ],
+  "dependencies": [
+    "curl"
+  ],
+  "requirements": {
+    "os": ["macos", "linux", "windows"],
+    "node": ">=12.0.0"
+  },
+  "configurable": false,
+  "enabledByDefault": true
+}

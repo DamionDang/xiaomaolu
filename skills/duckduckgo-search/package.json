@@ -1,0 +1,12 @@
+{
+  "name": "duckduckgo-search",
+  "version": "1.0.0",
+  "description": "DuckDuckGo search skill for Clawdbot",
+  "main": "search.js",
+  "scripts": {
+    "search": "node search.js"
+  },
+  "keywords": ["clawdbot", "skill", "duckduckgo", "search", "web"],
+  "author": "Clawdbot User",
+  "license": "MIT"
+}
